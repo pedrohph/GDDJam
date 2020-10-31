@@ -28,7 +28,6 @@ public abstract class Obstacles : MonoBehaviour {
     }
 
     public void PlaySound(AudioClip clip) {
-        Debug.Log("AQUI ó");
         if (PlayedSFX != null) {
             PlayedSFX(clip);
         }

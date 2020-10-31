@@ -24,7 +24,6 @@ public class AudioManager : MonoBehaviour
     }
 
     public void ListenSoundsFromObstacles(Obstacles obstacles) {
-        Debug.Log("Aqui ó");
         obstacles.PlayedSFX += PlaySFX;
     }
 
