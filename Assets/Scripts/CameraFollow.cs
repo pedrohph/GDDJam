@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
-{
+public class CameraFollow : MonoBehaviour {
     [Header("Target")]
     public Transform target;
 
@@ -40,9 +39,11 @@ public class CameraFollow : MonoBehaviour
     }
 
     public void FollowTarget(Transform t) {
-        Vector3 localPos = transform.localPosition;
-        Vector3 targetLocalPos = t.transform.localPosition;
-        transform.localPosition = Vector3.SmoothDamp(localPos, new Vector3(targetLocalPos.x + offset.x, targetLocalPos.y + offset.y, localPos.z), ref velocity, smoothTime);
+        if (t != null) {
+            Vector3 localPos = transform.localPosition;
+            Vector3 targetLocalPos = t.transform.localPosition;
+            transform.localPosition = Vector3.SmoothDamp(localPos, new Vector3(targetLocalPos.x + offset.x, targetLocalPos.y + offset.y, localPos.z), ref velocity, smoothTime);
+        }
     }
 
 }

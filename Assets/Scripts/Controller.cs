@@ -34,7 +34,8 @@ public class Controller : MonoBehaviour {
             currentSwipe *= 2;
             currentSwipe = new Vector3(Mathf.Clamp(currentSwipe.x, -1, 1), Mathf.Clamp(currentSwipe.y, -1, 1));
 
-            player.MovePlayer(currentSwipe.x, currentSwipe.y);
+            if (player != null)
+                player.MovePlayer(currentSwipe.x, currentSwipe.y);
         }
     }
 
