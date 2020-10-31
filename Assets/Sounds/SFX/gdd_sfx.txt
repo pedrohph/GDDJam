@@ -1,0 +1,2 @@
+Sound FX directory. 
+Format: sfx_<action_description>.wav
