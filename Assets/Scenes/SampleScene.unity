@@ -438,7 +438,7 @@ MonoBehaviour:
   target: {fileID: 1722566440}
   offset: {x: 0, y: 0, z: 0}
   limits: {x: 4, y: 6}
-  smoothTime: 0
+  smoothTime: 0.1
 --- !u!1 &1483621994
 GameObject:
   m_ObjectHideFlags: 0

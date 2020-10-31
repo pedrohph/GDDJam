@@ -23,37 +23,17 @@ public class Controller : MonoBehaviour {
     public void Swipe() {
         if (Input.GetMouseButtonDown(0)) {
             //save began touch 2d point
-            firstPressPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+            firstPressPos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
         }
         if (Input.GetMouseButton(0)) {
             //save ended touch 2d point
-            secondPressPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+            secondPressPos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
             //create vector from the two points
+
             currentSwipe = new Vector2(secondPressPos.x - firstPressPos.x, secondPressPos.y - firstPressPos.y);
+            currentSwipe *= 2;
+            currentSwipe = new Vector3(Mathf.Clamp(currentSwipe.x, -1, 1), Mathf.Clamp(currentSwipe.y, -1, 1));
 
-            //normalize the 2d vector
-            currentSwipe.Normalize();
-
-            /*
-            //swipe upwards
-            if (currentSwipe.y > 0 ) {
-                Debug.Log("up swipe");
-            }
-            //swipe down
-            if (currentSwipe.y < 0) {
-                Debug.Log("down swipe");
-            }
-            //swipe left
-            if (currentSwipe.x < 0 ) {
-                Debug.Log("left swipe");
-            }
-            //swipe right
-            if (currentSwipe.x > 0) {
-                Debug.Log("right swipe");
-            }*/
-
-
-            Debug.Log(currentSwipe);
             player.MovePlayer(currentSwipe.x, currentSwipe.y);
         }
     }
