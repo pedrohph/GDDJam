@@ -17,7 +17,10 @@ public class Body : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision collision) {
-        //Game Over chamado aqui
-        Destroy(transform.parent.gameObject);
+        if (collision.gameObject.GetComponent<Obstacles>()) {
+            collision.gameObject.GetComponent<Obstacles>().BodyCollision();
+            Destroy(transform.parent.gameObject);
+        }
+        
     }
 }
