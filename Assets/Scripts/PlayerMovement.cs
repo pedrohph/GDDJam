@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour {
     public void RotationLook(float h, float v) {
         //aimTarget.parent.position = Vector3.zero;
         aimTarget.localPosition = new Vector3(h, v, 1);
-        transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(aimTarget.position), Mathf.Deg2Rad * movementSpeed);
+        //transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(aimTarget.position), Mathf.Deg2Rad * movementSpeed);
     }
 
     void HorizontalLean(Transform target, float axis) {

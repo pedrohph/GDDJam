@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
     public GameObject gameOverPanel, winPanel;
@@ -24,6 +25,7 @@ public class GameManager : MonoBehaviour {
 
     public void OnLevelEndened() {
         print("Abrir tela de vitoria");
+        Invoke("RestartLevel", 0.6f);
     }
 
     public void NextLevelButton() {
@@ -31,9 +33,10 @@ public class GameManager : MonoBehaviour {
         PlayerPrefs.SetInt("CurrentLevel", i);
         //tocar efeito de som do botão
         //chamar função de carregamento de fase
-        Invoke("LoadNewLevel", 0.5f);
+        //Invoke("LoadNewLevel", 0.5f);
         //talvez seja interessante chamar um fade para essa transição 
-        Invoke("ResetPlayerToStart", 0.6f);
+        //Invoke("ResetPlayerToStart", 0.6f);
+
     }
 
     public void ResetPlayerToStart() {
@@ -42,6 +45,7 @@ public class GameManager : MonoBehaviour {
 
     public void RestartLevel() {
         //reiniciar a fase
+        SceneManager.LoadScene("SampleScene");
     }
 
     public void LoadNewLevel() {
