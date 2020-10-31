@@ -68,7 +68,6 @@
     <Compile Include="Assets\Scripts\Controller.cs" />
     <Compile Include="Assets\Scripts\FrontMovement.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Model.cs" />
     <Compile Include="Assets\Scripts\PlaneParts\Body.cs" />
     <Compile Include="Assets\Scripts\PlaneParts\Wing.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />

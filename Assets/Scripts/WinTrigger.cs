@@ -7,6 +7,10 @@ public class WinTrigger : MonoBehaviour
     public delegate void WinTrigged();
     public event WinTrigged OnWinTriggered;
 
+    public delegate void WinSFX(AudioClip clip);
+    public event WinSFX OnSFXPlayed;
+
+    public AudioClip clip;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -14,7 +18,11 @@ public class WinTrigger : MonoBehaviour
         {
             if(OnWinTriggered != null)
             {
-                OnWinTriggered();
+                OnWinTriggered();              
+            }
+            if(OnSFXPlayed != null)
+            {
+                OnSFXPlayed(clip);
             }
         }
     }

@@ -6,10 +6,20 @@ public class GameManager : MonoBehaviour
 {
     public GameObject gameOverPanel, winPanel;
 
+    WinTrigger winTrigger;
+    GameManager gameManager;
+
+    AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
         PlayerPrefs.GetInt("currentLevel",0);
+
+        winTrigger = FindObjectOfType<WinTrigger>();
+        gameManager = FindObjectOfType<GameManager>();
+
+        winTrigger.OnWinTriggered += gameManager.OnLevelEndened;
     }
 
     public void OnDie()
