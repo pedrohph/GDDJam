@@ -18,7 +18,17 @@ public class AudioManager : MonoBehaviour
 
     public void PlaySFX(AudioClip clip)
     {
+
         sfx.clip = clip;
         sfx.Play();
+    }
+
+    public void ListenSoundsFromObstacles(Obstacles obstacles) {
+        Debug.Log("Aqui ó");
+        obstacles.PlayedSFX += PlaySFX;
+    }
+
+    public void RemoveSoundsFromObstacles(Obstacles obstacles) {
+        obstacles.PlayedSFX -= PlaySFX;
     }
 }

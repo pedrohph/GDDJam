@@ -140,6 +140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63236b0f7c3775c4f95f653e23eb1bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AudioCut: {fileID: 8300000, guid: 3c5d677c18afe9246bd834360c3d9162, type: 3}
+  AudioCollision: {fileID: 0}
 --- !u!1001 &1103128984625367600
 PrefabInstance:
   m_ObjectHideFlags: 0

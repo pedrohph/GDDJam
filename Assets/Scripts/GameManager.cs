@@ -2,17 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
-{
+public class GameManager : MonoBehaviour {
     public GameObject gameOverPanel, winPanel;
 
     WinTrigger winTrigger;
     GameManager gameManager;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        PlayerPrefs.GetInt("currentLevel",0);
+    void Start() {
+        PlayerPrefs.GetInt("currentLevel", 0);
 
         winTrigger = FindObjectOfType<WinTrigger>();
         gameManager = FindObjectOfType<GameManager>();
@@ -20,19 +18,16 @@ public class GameManager : MonoBehaviour
         winTrigger.OnWinTriggered += gameManager.OnLevelEndened;
     }
 
-    public void OnDie()
-    {
+    public void OnDie() {
         print("Abrir tela de derrota");
     }
 
-    public void OnLevelEndened()
-    {
-        print("Abrir tela de vitoria");       
+    public void OnLevelEndened() {
+        print("Abrir tela de vitoria");
     }
 
-    public void NextLevelButton()
-    {
-        int i = PlayerPrefs.GetInt("currentLevel",0) + 1;
+    public void NextLevelButton() {
+        int i = PlayerPrefs.GetInt("currentLevel", 0) + 1;
         PlayerPrefs.SetInt("CurrentLevel", i);
         //tocar efeito de som do botão
         //chamar função de carregamento de fase
@@ -41,19 +36,24 @@ public class GameManager : MonoBehaviour
         Invoke("ResetPlayerToStart", 0.6f);
     }
 
-    public void ResetPlayerToStart()
-    {
+    public void ResetPlayerToStart() {
         //reposicionar player no inicio da fase
     }
 
-    public void RestartLevel()
-    {
+    public void RestartLevel() {
         //reiniciar a fase
     }
 
-    public void LoadNewLevel()
-    {
+    public void LoadNewLevel() {
         //reposicionar player
         //instanciar nova fase
+    }
+
+    public void ListenGameOver(Obstacles obstacle) {
+        obstacle.DefinedGameOver += OnDie;
+    }
+
+    public void RemoveListenGameOver(Obstacles obstacle) {
+        obstacle.DefinedGameOver -= OnDie;
     }
 }

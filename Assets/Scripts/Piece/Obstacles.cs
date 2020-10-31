@@ -13,13 +13,22 @@ public abstract class Obstacles : MonoBehaviour {
     public AudioClip AudioCut;
     public AudioClip AudioCollision;
 
+    protected void OnEnable() {
+        AudioManager am = FindObjectOfType<AudioManager>();
+        am.ListenSoundsFromObstacles(this);
+
+        GameManager gm = FindObjectOfType<GameManager>();
+        gm.ListenGameOver(this);
+    }
+
     public void GameOver() {
-        if(DefinedGameOver != null) {
+        if (DefinedGameOver != null) {
             DefinedGameOver();
         }
     }
 
     public void PlaySound(AudioClip clip) {
+        Debug.Log("AQUI ó");
         if (PlayedSFX != null) {
             PlayedSFX(clip);
         }
