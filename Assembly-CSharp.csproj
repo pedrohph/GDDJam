@@ -71,6 +71,8 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Tree.cs" />
     <Compile Include="Assets\Scripts\WoodPiece.cs" />
+    <None Include="Assets\Sounds\Music\gdd_music.txt" />
+    <None Include="Assets\Sounds\SFX\gdd_sfx.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
