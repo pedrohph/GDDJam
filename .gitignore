@@ -1,2 +1,8 @@
 /Library
 /Temp
+.vs/GDDJam/v15/Server/sqlite3/storage.ide-shm
+.vs/GDDJam/v15/Server/sqlite3/storage.ide
+obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
+obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+obj/Debug/DOTween.Modules.csproj.CoreCompileInputs.cache
+obj/Debug/DOTween.Modules.csprojAssemblyReference.cache

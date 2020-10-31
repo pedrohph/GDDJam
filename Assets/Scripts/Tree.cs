@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Tree : MonoBehaviour {
-    public GameObject woodPiece;
-    public float woodlenght;
-    public int lenght;
+    public GameObject treeTop;
     // Start is called before the first frame update
     void Start() {
         CreateTree();
@@ -17,19 +15,24 @@ public class Tree : MonoBehaviour {
     }
 
     public void CreateTree() {
-        Vector3 newPiecePos = transform.position;
-        GameObject lastCreated = null;
-        GameObject g;
-        for (int i = 0; i < lenght; i++) {
-            newPiecePos.y += woodlenght;
-            g = Instantiate(woodPiece, newPiecePos, transform.rotation, transform);
-            if (i != 0) {
-                lastCreated.GetComponent<FixedJoint>().connectedBody = g.GetComponent<Rigidbody>();
+        for(int i = 1; i< transform.childCount; i++) {
+            if(i != 1) {
+                if (i != transform.childCount - 1) {
+                    transform.GetChild(i).gameObject.GetComponent<WoodPiece>().UpperWood = transform.GetChild(i + 1).gameObject.GetComponent<WoodPiece>();
+                }
+                if ( i != 2) {
+                    transform.GetChild(i).gameObject.GetComponent<WoodPiece>().LowerWood = transform.GetChild(i - 1).gameObject.GetComponent<WoodPiece>();
+                }
             }
-            if(i == lenght - 1) {
-                g.GetComponent<FixedJoint>().breakForce = 0;
+            if (i != transform.childCount - 1) {
+
+                transform.GetChild(i).gameObject.GetComponent<FixedJoint>().connectedBody = transform.GetChild(i + 1).gameObject.GetComponent<Rigidbody>();
+            } else {
+                treeTop.transform.localPosition = transform.GetChild(i).localPosition;
+                treeTop.transform.localPosition += new Vector3(0,1,0);
+                transform.GetChild(i).gameObject.GetComponent<FixedJoint>().connectedBody = transform.GetChild(0).GetComponent<Rigidbody>();
             }
-            lastCreated = g;
         }
+        
     }
 }
