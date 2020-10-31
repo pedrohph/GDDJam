@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Controller.cs" />
     <Compile Include="Assets\Scripts\FrontMovement.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\LootHolder.cs" />
     <Compile Include="Assets\Scripts\Piece\MetalPiece.cs" />
     <Compile Include="Assets\Scripts\Piece\Obstacles.cs" />
     <Compile Include="Assets\Scripts\Piece\WoodPiece.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Tree.cs" />
     <Compile Include="Assets\Scripts\WinTrigger.cs" />
+    <Compile Include="Assets\Scripts\WoodLoot.cs" />
     <None Include="Assets\Sounds\Music\gdd_music.txt" />
     <None Include="Assets\Sounds\SFX\gdd_sfx.txt" />
     <Reference Include="UnityEngine">

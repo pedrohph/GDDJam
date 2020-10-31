@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour {
 
     [Header("Visao")]
     public float lookSpeed;
-    public Transform aimTarget;
+    //public Transform aimTarget;
 
 
     // Start is called before the first frame update
@@ -22,13 +22,13 @@ public class PlayerMovement : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         PlayerMove(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        RotationLook(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+       // RotationLook(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         HorizontalLean(transform, Input.GetAxis("Horizontal"));
     }
 
     public void MovePlayer(float x, float y) {
         PlayerMove(x, y);
-        RotationLook(x, y);
+        //RotationLook(x, y);
         HorizontalLean(transform, x);
     }
 
@@ -41,11 +41,11 @@ public class PlayerMovement : MonoBehaviour {
         transform.localPosition = new Vector3(Mathf.Clamp(transform.position.x, -movementLimits.x, movementLimits.x), Mathf.Clamp(transform.position.y , -movementLimits.y, movementLimits.y),0);// Camera.main.ViewportToWorldPoint(pos);
     }
 
-    public void RotationLook(float h, float v) {
-        //aimTarget.parent.position = Vector3.zero;
-        aimTarget.localPosition = new Vector3(h, v, 1);
-        //transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(aimTarget.position), Mathf.Deg2Rad * movementSpeed);
-    }
+    //public void RotationLook(float h, float v) {
+    //    //aimTarget.parent.position = Vector3.zero;
+    //    aimTarget.localPosition = new Vector3(h, v, 1);
+    //    //transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(aimTarget.position), Mathf.Deg2Rad * movementSpeed);
+    //}
 
     void HorizontalLean(Transform target, float axis) {
         Vector3 targetEulerAngels = target.localEulerAngles;
