@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -2517333988263359284}
   - component: {fileID: 927393798613254754}
   m_Layer: 0
-  m_Name: Cylinder (12)
+  m_Name: WoodPiece
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -138,4 +138,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63236b0f7c3775c4f95f653e23eb1bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pieceOver: {fileID: 0}

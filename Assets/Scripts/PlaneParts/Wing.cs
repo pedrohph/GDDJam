@@ -14,8 +14,8 @@ public class Wing : MonoBehaviour {
     }
 
     private void OnCollisionEnter(Collision collision) {
-        if (GetComponent<WoodPiece>()) {
-            collision.gameObject.GetComponent<WoodPiece>().wingCollided();
+        if (collision.gameObject.GetComponent<WoodPiece>()) {
+            collision.gameObject.GetComponent<WoodPiece>().WingCollided();
         }
     }
 }
