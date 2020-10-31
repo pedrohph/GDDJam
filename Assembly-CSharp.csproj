@@ -261,9 +261,6 @@
     <Reference Include="UnityEditor">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>D:/Projetos Unity/JAM GDD/GDDJam/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
       <HintPath>D:/Projetos Unity/JAM GDD/GDDJam/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
