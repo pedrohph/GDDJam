@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour {
 
     public void OnDie() {
         PlayerPrefs.SetInt("win", 0);
-        Invoke("RestartLevel", 1f);
+        Invoke("RestartLevel", 1.5f);
     }
 
     public void OnLevelEndened() {

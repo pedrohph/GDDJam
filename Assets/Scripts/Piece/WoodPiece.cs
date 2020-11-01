@@ -28,6 +28,7 @@ public class WoodPiece : Obstacles {
     }
 
     public override void BodyCollision() {
+        Shake();
         PlaySound(AudioCollision);
         GameOver();
     }
@@ -56,5 +57,10 @@ public class WoodPiece : Obstacles {
         Camera.main.DOShakePosition(0.1f, 1f, 10);
         yield return new WaitForSecondsRealtime(0.2f);
         Time.timeScale = 1;
+    }
+
+    public void Shake() {
+        Camera.main.DOKill();
+        Camera.main.DOShakePosition(0.5f, 2f, 10);
     }
 }
