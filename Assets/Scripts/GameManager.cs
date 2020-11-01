@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour {
         totalTreeCount = FindObjectsOfType<Tree>().Length * 5;
     }
 
-    float ProgressCalculator()
+    public float ProgressCalculator()
     {
         float percentage;
         percentage = (lootCount * 100) / totalTreeCount;
@@ -56,8 +56,8 @@ public class GameManager : MonoBehaviour {
 
     public void OnLevelEndened() {
         print(ProgressCalculator());
-        NextLevelButton();
-   //     winPanel.SetActive(true);
+        //NextLevelButton();
+        winPanel.SetActive(true);
     }
 
     public void NextLevelButton() {

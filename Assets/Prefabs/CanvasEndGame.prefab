@@ -1,5 +1,153 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4938016405790669917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 522590131554366072}
+  - component: {fileID: 5533576751719792044}
+  - component: {fileID: 5528942150489127818}
+  m_Layer: 5
+  m_Name: ProgressBG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &522590131554366072
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4938016405790669917}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8949068514459940634}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 1.5, y: 1211.3}
+  m_SizeDelta: {x: 546.89844, y: 83.473175}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5533576751719792044
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4938016405790669917}
+  m_CullTransparentMesh: 0
+--- !u!114 &5528942150489127818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4938016405790669917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+  m_RaycastTarget: 0
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0bd21f8b941e02b4d8c434bfba6d243b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8438252641297734819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7735267240288631253}
+  - component: {fileID: 4914559129440874972}
+  - component: {fileID: 4829689289065843061}
+  m_Layer: 5
+  m_Name: ProgressBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7735267240288631253
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8438252641297734819}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8949068514459940634}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 1.5, y: 1211.3}
+  m_SizeDelta: {x: 546.89844, y: 83.473175}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4914559129440874972
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8438252641297734819}
+  m_CullTransparentMesh: 0
+--- !u!114 &4829689289065843061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8438252641297734819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.6034328, g: 1, b: 0.5566038, a: 1}
+  m_RaycastTarget: 0
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0bd21f8b941e02b4d8c434bfba6d243b, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &8949068513137486857
 GameObject:
   m_ObjectHideFlags: 0
@@ -12,7 +160,7 @@ GameObject:
   - component: {fileID: 8949068513137486858}
   - component: {fileID: 8949068513137486859}
   - component: {fileID: 8949068513137486856}
-  - component: {fileID: 8743573934767245317}
+  - component: {fileID: 1231367912613003437}
   m_Layer: 5
   m_Name: CanvasEndGame
   m_TagString: Untagged
@@ -100,7 +248,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &8743573934767245317
+--- !u!114 &1231367912613003437
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,16 +257,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 8949068513137486857}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e824451bf0aaf946a3e6473870561fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 2db6c83c7172d154e8a001269d75f6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loopTrigger: {fileID: 0}
-  panelStartGame: {fileID: 8949068513137486857}
-  particles: {fileID: 0}
-  controller: {fileID: 0}
-  trail:
-  - {fileID: 0}
-  - {fileID: 0}
+  titles:
+  - {fileID: 21300000, guid: ee49e3cee0c6545e1919346040b5643a, type: 3}
+  - {fileID: 21300000, guid: a422a900648214ad499ecf1785fdf732, type: 3}
+  - {fileID: 21300000, guid: 6f7cb9f5a5572492aaf20d904f86073f, type: 3}
+  title: {fileID: 8949068513732169969}
+  progressBar: {fileID: 4829689289065843061}
 --- !u!1 &8949068513732169975
 GameObject:
   m_ObjectHideFlags: 0
@@ -131,7 +278,7 @@ GameObject:
   - component: {fileID: 8949068513732169968}
   - component: {fileID: 8949068513732169969}
   m_Layer: 5
-  m_Name: TitleLogo
+  m_Name: Rank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -144,17 +291,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8949068513732169975}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.08932514, w: 0.99600255}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8949068514459940634}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 10.250001}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1032.3}
-  m_SizeDelta: {x: 491.32266, y: 491.32266}
+  m_AnchoredPosition: {x: -0.0000038147, y: 1015}
+  m_SizeDelta: {x: 422.53104, y: 153.95953}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8949068513732169968
 CanvasRenderer:
@@ -183,7 +330,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1afffb9a1ff144124809ca308602faed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ee49e3cee0c6545e1919346040b5643a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -223,7 +370,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8949068514459940634}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -296,6 +443,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 522590131554366072}
+  - {fileID: 7735267240288631253}
   - {fileID: 8949068514833420490}
   - {fileID: 8949068514023091551}
   - {fileID: 8949068513732169974}
@@ -356,7 +505,7 @@ GameObject:
   - component: {fileID: 8949068514833420484}
   - component: {fileID: 8949068514833420485}
   m_Layer: 5
-  m_Name: Title
+  m_Name: ProgressBarHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -374,12 +523,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8949068514459940634}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -157, y: 229.04999}
-  m_SizeDelta: {x: 141.29593, y: 141.29593}
+  m_AnchoredPosition: {x: -0.0000019073, y: 1201}
+  m_SizeDelta: {x: 579.4043, y: 157.31293}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8949068514833420484
 CanvasRenderer:
@@ -408,7 +557,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 184cd35949d684843b4ac53038d04063, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6962ac1f0f7eb40ce89887006babea35, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
