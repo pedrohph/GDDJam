@@ -9,6 +9,7 @@ public class Controller : MonoBehaviour {
     Vector2 currentSwipe;
 
     public PlayerMovement player;
+    bool pressed = false;
 
     // Start is called before the first frame update
     void Start() {
@@ -24,8 +25,9 @@ public class Controller : MonoBehaviour {
         if (Input.GetMouseButtonDown(0)) {
             //save began touch 2d point
             firstPressPos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+            pressed = true;
         }
-        if (Input.GetMouseButton(0)) {
+        if (pressed && Input.GetMouseButton(0)) {
             //save ended touch 2d point
             secondPressPos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
             //create vector from the two points
