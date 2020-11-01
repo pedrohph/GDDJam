@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour {
     GameManager gameManager;
 
     float totalTreeCount;
-    float lootCount;
+    public float lootCount;
 
     // Start is called before the first frame update
     void Start() {
