@@ -803,6 +803,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387640613579469
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,6 +1076,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387640630787167
 GameObject:
   m_ObjectHideFlags: 0
@@ -2091,6 +2095,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387640710494484
 GameObject:
   m_ObjectHideFlags: 0
@@ -2236,6 +2242,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387640713694663
 GameObject:
   m_ObjectHideFlags: 0
@@ -2381,6 +2389,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387640726605640
 GameObject:
   m_ObjectHideFlags: 0
@@ -2816,6 +2826,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387640775703849
 GameObject:
   m_ObjectHideFlags: 0
@@ -3701,6 +3713,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641000203567
 GameObject:
   m_ObjectHideFlags: 0
@@ -3846,6 +3860,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641002150637
 GameObject:
   m_ObjectHideFlags: 0
@@ -4100,6 +4116,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641013208702
 GameObject:
   m_ObjectHideFlags: 0
@@ -4245,6 +4263,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641069066188
 GameObject:
   m_ObjectHideFlags: 0
@@ -5132,6 +5152,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641216693533
 GameObject:
   m_ObjectHideFlags: 0
@@ -5277,6 +5299,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641225094212
 GameObject:
   m_ObjectHideFlags: 0
@@ -6112,6 +6136,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641293377669
 GameObject:
   m_ObjectHideFlags: 0
@@ -6844,6 +6870,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641418529765
 GameObject:
   m_ObjectHideFlags: 0
@@ -8039,6 +8067,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641535065770
 GameObject:
   m_ObjectHideFlags: 0
@@ -8263,6 +8293,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641550285249
 GameObject:
   m_ObjectHideFlags: 0
@@ -8409,6 +8441,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641566583358
 GameObject:
   m_ObjectHideFlags: 0
@@ -8554,6 +8588,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641575847005
 GameObject:
   m_ObjectHideFlags: 0
@@ -8700,6 +8736,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641590505844
 GameObject:
   m_ObjectHideFlags: 0
@@ -9239,6 +9277,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641626808259
 GameObject:
   m_ObjectHideFlags: 0
@@ -9493,6 +9533,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641654859999
 GameObject:
   m_ObjectHideFlags: 0
@@ -9638,6 +9680,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641662478193
 GameObject:
   m_ObjectHideFlags: 0
@@ -10066,6 +10110,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641854060907
 GameObject:
   m_ObjectHideFlags: 0
@@ -10211,6 +10257,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641866247116
 GameObject:
   m_ObjectHideFlags: 0
@@ -10666,6 +10714,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387641904254188
 GameObject:
   m_ObjectHideFlags: 0
@@ -11569,6 +11619,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387642054496389
 GameObject:
   m_ObjectHideFlags: 0
@@ -12325,6 +12377,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387642194997603
 GameObject:
   m_ObjectHideFlags: 0
@@ -12596,6 +12650,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387642219096969
 GameObject:
   m_ObjectHideFlags: 0
@@ -13621,6 +13677,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387642389629332
 GameObject:
   m_ObjectHideFlags: 0
@@ -14207,6 +14265,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387642500882363
 GameObject:
   m_ObjectHideFlags: 0
@@ -14478,6 +14538,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387642514341585
 GameObject:
   m_ObjectHideFlags: 0
@@ -14702,6 +14764,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387642551126487
 GameObject:
   m_ObjectHideFlags: 0
@@ -14848,6 +14912,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387642581254645
 GameObject:
   m_ObjectHideFlags: 0
@@ -15119,6 +15185,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &6421387642626908359
 GameObject:
   m_ObjectHideFlags: 0
@@ -15925,6 +15993,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &7073120420361624305
 GameObject:
   m_ObjectHideFlags: 0
@@ -16455,6 +16524,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &7073120420921609212
 GameObject:
   m_ObjectHideFlags: 0
@@ -16786,6 +16856,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &7073120421275925924
 GameObject:
   m_ObjectHideFlags: 0
@@ -17010,6 +17081,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &7073120421618606707
 GameObject:
   m_ObjectHideFlags: 0
@@ -17300,6 +17372,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &7073120421708194610
 GameObject:
   m_ObjectHideFlags: 0
@@ -17806,6 +17879,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &7073120421961571259
 GameObject:
   m_ObjectHideFlags: 0
@@ -18380,6 +18454,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754546818609658
 GameObject:
   m_ObjectHideFlags: 0
@@ -18933,6 +19008,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754546907515954
 GameObject:
   m_ObjectHideFlags: 0
@@ -19078,6 +19154,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754546907854570
 GameObject:
   m_ObjectHideFlags: 0
@@ -19302,6 +19379,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754546940838611
 GameObject:
   m_ObjectHideFlags: 0
@@ -19573,6 +19651,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754546941526750
 GameObject:
   m_ObjectHideFlags: 0
@@ -20517,6 +20596,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547000476555
 GameObject:
   m_ObjectHideFlags: 0
@@ -21044,6 +21124,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547031443424
 GameObject:
   m_ObjectHideFlags: 0
@@ -21926,6 +22007,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &8732754547096566799
 GameObject:
   m_ObjectHideFlags: 0
@@ -22329,6 +22412,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &8732754547122669030
 GameObject:
   m_ObjectHideFlags: 0
@@ -22475,6 +22560,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547132737808
 GameObject:
   m_ObjectHideFlags: 0
@@ -22620,6 +22706,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547146156021
 GameObject:
   m_ObjectHideFlags: 0
@@ -22929,6 +23016,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547162311978
 GameObject:
   m_ObjectHideFlags: 0
@@ -23754,6 +23842,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547224157328
 GameObject:
   m_ObjectHideFlags: 0
@@ -24536,6 +24625,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &8732754547297980351
 GameObject:
   m_ObjectHideFlags: 0
@@ -24681,6 +24772,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547314534656
 GameObject:
   m_ObjectHideFlags: 0
@@ -24952,6 +25044,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547337557372
 GameObject:
   m_ObjectHideFlags: 0
@@ -25098,6 +25191,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547366532056
 GameObject:
   m_ObjectHideFlags: 0
@@ -25243,6 +25337,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547378335744
 GameObject:
   m_ObjectHideFlags: 0
@@ -25546,6 +25641,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547433895936
 GameObject:
   m_ObjectHideFlags: 0
@@ -25771,6 +25867,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &8732754547439161070
 GameObject:
   m_ObjectHideFlags: 0
@@ -25917,6 +26015,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547462092286
 GameObject:
   m_ObjectHideFlags: 0
@@ -27204,6 +27303,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547582694407
 GameObject:
   m_ObjectHideFlags: 0
@@ -27349,6 +27449,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547595838440
 GameObject:
   m_ObjectHideFlags: 0
@@ -27494,6 +27595,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547602228905
 GameObject:
   m_ObjectHideFlags: 0
@@ -27639,6 +27741,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547605862497
 GameObject:
   m_ObjectHideFlags: 0
@@ -28423,6 +28526,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547669514484
 GameObject:
   m_ObjectHideFlags: 0
@@ -29451,6 +29555,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547824294997
 GameObject:
   m_ObjectHideFlags: 0
@@ -30241,6 +30346,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754547937840239
 GameObject:
   m_ObjectHideFlags: 0
@@ -31283,6 +31389,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754548094825197
 GameObject:
   m_ObjectHideFlags: 0
@@ -31428,6 +31535,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754548112808966
 GameObject:
   m_ObjectHideFlags: 0
@@ -31573,6 +31681,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754548115301668
 GameObject:
   m_ObjectHideFlags: 0
@@ -31847,6 +31956,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754548146874780
 GameObject:
   m_ObjectHideFlags: 0
@@ -31992,6 +32102,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &8732754548150574091
 GameObject:
   m_ObjectHideFlags: 0
@@ -32593,6 +32705,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754548258073844
 GameObject:
   m_ObjectHideFlags: 0
@@ -32739,6 +32852,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754548261444534
 GameObject:
   m_ObjectHideFlags: 0
@@ -33774,6 +33888,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754548335327745
 GameObject:
   m_ObjectHideFlags: 0
@@ -34123,6 +34238,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &8732754548356566814
 GameObject:
   m_ObjectHideFlags: 0
@@ -34268,6 +34385,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754548387159067
 GameObject:
   m_ObjectHideFlags: 0
@@ -34749,6 +34867,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754548453081423
 GameObject:
   m_ObjectHideFlags: 0
@@ -35286,6 +35405,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754548521050578
 GameObject:
   m_ObjectHideFlags: 0
@@ -35432,6 +35552,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754548569142560
 GameObject:
   m_ObjectHideFlags: 0
@@ -36585,6 +36706,7 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 0}
 --- !u!1 &8732754548699264372
 GameObject:
   m_ObjectHideFlags: 0
@@ -37059,6 +37181,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &8732754548768516510
 GameObject:
   m_ObjectHideFlags: 0
@@ -37848,6 +37972,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1 &8732754548822895502
 GameObject:
   m_ObjectHideFlags: 0
@@ -38467,6 +38593,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1001 &6421387640565894299
 PrefabInstance:
   m_ObjectHideFlags: 0

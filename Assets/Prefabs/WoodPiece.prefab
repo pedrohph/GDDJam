@@ -145,6 +145,8 @@ MonoBehaviour:
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
   loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
+  woodParticle: {fileID: 7269809308196458655, guid: 1ea976365dd2a404389993afd0b689dc,
+    type: 3}
 --- !u!1001 &4296460050761188871
 PrefabInstance:
   m_ObjectHideFlags: 0

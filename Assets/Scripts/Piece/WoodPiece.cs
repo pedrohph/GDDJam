@@ -8,6 +8,7 @@ public class WoodPiece : Obstacles {
     public WoodPiece LowerWood;
 
     public GameObject loot;
+    public GameObject woodParticle;
 
     public void RemoveJoint() {
         if (GetComponent<FixedJoint>())
@@ -21,7 +22,7 @@ public class WoodPiece : Obstacles {
         if (LowerWood != null) {
             LowerWood.RemoveJoint();
         }
-
+        Instantiate(woodParticle, transform.position, transform.rotation);
         DisableColliders();
         DieTree();
         StartCoroutine(SlowTimeAndShake());
