@@ -16,15 +16,17 @@ public class GameManager : MonoBehaviour {
 
     public GameObject explosion;
 
+    public Levels levelsReader;
+
     // Start is called before the first frame update
     void Start() {
         int i = PlayerPrefs.GetInt("currentLevel", 0);
         TotalTreeCalculator();
-        if(i >= levels.Length) {
+        if(i >= levelsReader.levels.Length) {
             i = 0;
             PlayerPrefs.SetInt("currentLevel", 0);
         }
-        Instantiate(levels[PlayerPrefs.GetInt("currentLevel",i)], levelSpawnPos.position,Quaternion.identity);
+        Instantiate(levelsReader.levels[i], levelSpawnPos.position,Quaternion.identity);
         winTrigger = FindObjectOfType<WinTrigger>();
         gameManager = FindObjectOfType<GameManager>();
 

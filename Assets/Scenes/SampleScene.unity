@@ -6171,10 +6171,11 @@ MonoBehaviour:
   levels:
   - {fileID: 2133191757250689893, guid: 6dabaa973b5c249b484134d158a43d4c, type: 3}
   - {fileID: 2966357534326759031, guid: a800f3856f355489386c9204336281af, type: 3}
-  - {fileID: 4622337720536107400, guid: 74c656cea41154ab398d9f47657799da, type: 3}
+  - {fileID: 7073120420701962165, guid: 74c656cea41154ab398d9f47657799da, type: 3}
   lootCount: 0
   explosion: {fileID: 1249440370417595396, guid: eac363d608f15af418477c3e15e2c2b6,
     type: 3}
+  levelsReader: {fileID: 11400000, guid: 1263a0d0149d88a4da7f71b8bd83da3c, type: 2}
 --- !u!82 &1535751102
 AudioSource:
   m_ObjectHideFlags: 0
