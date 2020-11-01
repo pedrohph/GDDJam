@@ -15,7 +15,7 @@ public class WoodPiece : Obstacles {
 
     public override void WingCollision() {
         PlaySound(AudioCut);
-        gameObject.GetComponent<Rigidbody>().AddForce(0, 0, 10, ForceMode.Impulse);
+        gameObject.GetComponent<Rigidbody>().AddForce(0, 0, 25, ForceMode.Impulse);
         // RemoveJoint();
         if (LowerWood != null) {
             LowerWood.RemoveJoint();
