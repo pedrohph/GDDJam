@@ -8,3 +8,4 @@ obj/Debug/DOTween.Modules.csproj.CoreCompileInputs.cache
 obj/Debug/DOTween.Modules.csprojAssemblyReference.cache
 .vs/GDDJam/v15/.suo
 GDDJam.sln
+Packages/packages-lock.json
