@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
+    <Compile Include="Assets\Scripts\EndLevel.cs" />
     <Compile Include="Assets\Scripts\FallenLog.cs" />
     <Compile Include="Assets\Scripts\FrontMovement.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
