@@ -9,16 +9,29 @@ public class GameManager : MonoBehaviour {
     WinTrigger winTrigger;
     GameManager gameManager;
 
+    int totalTreeCount;
     int lootCount;
 
     // Start is called before the first frame update
     void Start() {
         PlayerPrefs.GetInt("currentLevel", 0);
-
+        TotalTreeCalculator();
         winTrigger = FindObjectOfType<WinTrigger>();
         gameManager = FindObjectOfType<GameManager>();
 
         winTrigger.OnWinTriggered += gameManager.OnLevelEndened;
+    }
+
+    void TotalTreeCalculator()
+    {
+        totalTreeCount = FindObjectsOfType<Tree>().Length;
+    }
+
+    float ProgressCalculator()
+    {
+        float percentage;
+        percentage = totalTreeCount * lootCount / 100;
+        return percentage;
     }
 
     public void OnDie() {
@@ -26,6 +39,8 @@ public class GameManager : MonoBehaviour {
     }
 
     public void OnLevelEndened() {
+        ProgressCalculator();
+
         print("Abrir tela de vitoria");
         Invoke("RestartLevel", 1f);
     }
