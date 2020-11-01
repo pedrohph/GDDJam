@@ -22,7 +22,7 @@ public class WoodPiece : Obstacles {
         }
 
         DisableColliders();
-        Invoke("DieTree", 1);
+        Invoke("DieTree", 0.3f);
     }
 
     public override void BodyCollision() {
