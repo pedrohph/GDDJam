@@ -41,4 +41,12 @@ public class Controller : MonoBehaviour {
         }
     }
 
+    public void GameOver() {
+        this.enabled = false;
+    }
+
+    public void ListenWinTrigger(WinTrigger wt) {
+        wt.OnWinTriggered += GameOver;
+    }
+
 }

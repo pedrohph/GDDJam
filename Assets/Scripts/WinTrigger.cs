@@ -14,6 +14,12 @@ public class WinTrigger : MonoBehaviour {
     public void Start() {
         CameraFollow cm = Camera.main.GetComponent<CameraFollow>();
         cm.ListenWinTrigger(this);
+
+        PlayerMovement pm = Camera.main.gameObject.transform.parent.GetComponentInChildren<PlayerMovement>();
+        pm.ListenWinTrigger(this);
+
+        Controller controller = GameObject.FindObjectOfType<Controller>();
+        controller.ListenWinTrigger(this);
     }
 
     private void OnTriggerEnter(Collider other) {
