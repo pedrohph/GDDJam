@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour {
 
     public void OnLevelEndened() {
         print(ProgressCalculator());
-        Invoke("RestartLevel", 1f);
+        Invoke("RestartLevel", 100f);
     }
 
     public void NextLevelButton() {
