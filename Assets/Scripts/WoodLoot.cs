@@ -7,6 +7,22 @@ public class WoodLoot : MonoBehaviour
     Transform playerTransform;
     public float moveSpeed;
 
+    public delegate void PlayLootSFX(AudioClip clip);
+    public event PlayLootSFX lootPlayedSFX;
+
+    public delegate void CollectLoot();
+    public event CollectLoot CollectedLoot;
+
+    public AudioClip clip;
+
+    protected void OnEnable()
+    {
+        AudioManager am = FindObjectOfType<AudioManager>();
+        am.ListenSoundsFromLoots(this);
+
+        GameManager gm = FindObjectOfType<GameManager>();
+        gm.addLoot();
+    }
 
     void Start()
     {
@@ -27,6 +43,15 @@ public class WoodLoot : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            if(lootPlayedSFX != null)
+            {
+                lootPlayedSFX(clip);
+            }
+            if (CollectedLoot != null)
+            {
+                CollectedLoot();
+            }
+
             Destroy(gameObject);
         }
     }
