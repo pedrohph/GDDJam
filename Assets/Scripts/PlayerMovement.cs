@@ -16,13 +16,17 @@ public class PlayerMovement : MonoBehaviour {
 
     public bool forcedPosition = false;
 
+    public GameManager gm;
+
+    public GameObject madeirinhas;
+
     // Start is called before the first frame update
     void Start() {
     }
 
     // Update is called once per frame
     void Update() {
-        // PlayerMove(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        PlayerMove(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         // RotationLook(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
          HorizontalLean(transform, Input.GetAxis("Horizontal"));
 
@@ -59,6 +63,20 @@ public class PlayerMovement : MonoBehaviour {
 
     public void ForcePosition() {
         forcedPosition = true;
+        InvokeRepeating("DropLoot", 0.1f, 0.1f);
+    }
+
+    public void DropLoot() {
+        if (gameObject.transform.localPosition == new Vector3(0, -3, 0) && Camera.main.GetComponent<CameraFollow>().offset.z < -25) {
+            if (gm.lootCount > 0) {
+                Instantiate(madeirinhas, gameObject.transform.position, gameObject.transform.rotation);
+                // Instantiate(madeirinhas, gameObject.transform.position, gameObject.transform.rotation);
+                gm.lootCount--;
+            } else {
+                CancelInvoke("DropLoot");
+                //Gerar Painel de Game Win
+            }
+        }
     }
 
     public void ListenWinTrigger(WinTrigger wt) {
