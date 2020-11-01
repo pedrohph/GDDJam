@@ -28,7 +28,6 @@ public class CameraFollow : MonoBehaviour {
         if (!Application.isPlaying) {
             transform.localPosition = offset;
         }
-
         FollowTarget(target);
     }
 
@@ -45,5 +44,4 @@ public class CameraFollow : MonoBehaviour {
             transform.localPosition = Vector3.SmoothDamp(localPos, new Vector3(targetLocalPos.x + offset.x, targetLocalPos.y + offset.y, targetLocalPos.z + offset.z), ref velocity, smoothTime);
         }
     }
-
 }

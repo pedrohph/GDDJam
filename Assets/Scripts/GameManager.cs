@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour {
 
     public void OnLevelEndened() {
         print("Abrir tela de vitoria");
-        Invoke("RestartLevel", 0.6f);
+        Invoke("RestartLevel", 1f);
     }
 
     public void NextLevelButton() {
