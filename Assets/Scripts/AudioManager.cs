@@ -30,4 +30,9 @@ public class AudioManager : MonoBehaviour
     public void RemoveSoundsFromObstacles(Obstacles obstacles) {
         obstacles.PlayedSFX -= PlaySFX;
     }
+
+    public void ListenSoundsFromLoots(WoodLoot loot)
+    {
+        loot.lootPlayedSFX += PlaySFX;
+    }
 }

@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour {
     WinTrigger winTrigger;
     GameManager gameManager;
 
+    int lootCount;
+
     // Start is called before the first frame update
     void Start() {
         PlayerPrefs.GetInt("currentLevel", 0);
@@ -59,5 +61,15 @@ public class GameManager : MonoBehaviour {
 
     public void RemoveListenGameOver(Obstacles obstacle) {
         obstacle.DefinedGameOver -= OnDie;
+    }
+
+    public void addLoot()
+    {
+        lootCount++;
+    }
+
+    public void ListenWoodLoot(WoodLoot woodLoot)
+    {
+        woodLoot.CollectedLoot += addLoot;
     }
 }
