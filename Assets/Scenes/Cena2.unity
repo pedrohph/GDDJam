@@ -5306,5 +5306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre
       objectReference: {fileID: 0}
+    - target: {fileID: 2787627706465985137, guid: ede4b0dca56b05b42a09dc2094a2624e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ede4b0dca56b05b42a09dc2094a2624e, type: 3}

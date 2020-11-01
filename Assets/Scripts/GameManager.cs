@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour {
     float totalTreeCount;
     public float lootCount;
 
+    public GameObject explosion;
+
     // Start is called before the first frame update
     void Start() {
         int i = PlayerPrefs.GetInt("currentLevel", 0);
@@ -43,6 +45,9 @@ public class GameManager : MonoBehaviour {
     }
 
     public void OnDie() {
+        Vector3 camPos = Camera.main.transform.position;
+        camPos.z += 10;
+        Instantiate(explosion, camPos, transform.rotation, Camera.main.transform);
         PlayerPrefs.SetInt("win", 0);
         Invoke("RestartLevel", 1.5f);
     }
