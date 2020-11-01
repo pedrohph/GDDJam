@@ -74,12 +74,14 @@
     <Compile Include="Assets\Scripts\Menu\LoopTree.cs" />
     <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Menu\TriggerRestartPos.cs" />
+    <Compile Include="Assets\Scripts\MusicListener.cs" />
     <Compile Include="Assets\Scripts\Piece\MetalPiece.cs" />
     <Compile Include="Assets\Scripts\Piece\Obstacles.cs" />
     <Compile Include="Assets\Scripts\Piece\WoodPiece.cs" />
     <Compile Include="Assets\Scripts\PlaneParts\Body.cs" />
     <Compile Include="Assets\Scripts\PlaneParts\Wing.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Saw.cs" />
     <Compile Include="Assets\Scripts\Tree.cs" />
     <Compile Include="Assets\Scripts\WinTrigger.cs" />
     <Compile Include="Assets\Scripts\WoodLoot.cs" />
