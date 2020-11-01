@@ -12,8 +12,10 @@ public class LoopTree : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (!panelMenu.activeSelf && transform.position.z <= playerShip.position.z) {
-            transform.position += new Vector3(0, 0, 160);
+        if (playerShip != null) {
+            if (!panelMenu.activeSelf && transform.position.z <= playerShip.position.z) {
+                transform.position += new Vector3(0, 0, 160);
+            }
         }
     }
 }
