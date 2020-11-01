@@ -16,9 +16,13 @@ public class GameManager : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        PlayerPrefs.GetInt("currentLevel", 0);
+        int i = PlayerPrefs.GetInt("currentLevel", 0);
         TotalTreeCalculator();
-        Instantiate(levels[PlayerPrefs.GetInt("currentlevel",0)], levelSpawnPos.position,Quaternion.identity);
+        if(i >= levels.Length) {
+            i = 0;
+            PlayerPrefs.SetInt("currentLevel", 0);
+        }
+        Instantiate(levels[PlayerPrefs.GetInt("currentLevel",i)], levelSpawnPos.position,Quaternion.identity);
         winTrigger = FindObjectOfType<WinTrigger>();
         gameManager = FindObjectOfType<GameManager>();
 
@@ -45,14 +49,16 @@ public class GameManager : MonoBehaviour {
 
     public void OnLevelEndened() {
         print(ProgressCalculator());
-        winPanel.SetActive(true);
+        NextLevelButton();
+   //     winPanel.SetActive(true);
     }
 
     public void NextLevelButton() {
-        int i = PlayerPrefs.GetInt("currentLevel", 0) + 1;
+        int i = PlayerPrefs.GetInt("currentLevel", 0);
+        i++;
         PlayerPrefs.SetInt("win", 1);
-        PlayerPrefs.SetInt("CurrentLevel", i);
-        Invoke("RestartLevel", 1f);
+        PlayerPrefs.SetInt("currentLevel", i);
+        Invoke("RestartLevel", 7f);
     }
 
     public void RestartLevel() {

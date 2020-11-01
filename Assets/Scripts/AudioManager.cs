@@ -11,9 +11,9 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        winTrigger = FindObjectOfType<WinTrigger>();
+        //winTrigger = FindObjectOfType<WinTrigger>();
         sfx = GetComponent<AudioSource>();
-        winTrigger.OnSFXPlayed += PlaySFX;
+        //winTrigger.OnSFXPlayed += PlaySFX;
     }
 
     public void PlaySFX(AudioClip clip)
