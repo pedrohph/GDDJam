@@ -16,15 +16,17 @@ public class GameManager : MonoBehaviour {
 
     public GameObject explosion;
 
+    public Levels levelsReader;
+
     // Start is called before the first frame update
     void Start() {
         int i = PlayerPrefs.GetInt("currentLevel", 0);
         TotalTreeCalculator();
-        if(i >= levels.Length) {
+        if(i >= levelsReader.levels.Length) {
             i = 0;
             PlayerPrefs.SetInt("currentLevel", 0);
         }
-        Instantiate(levels[PlayerPrefs.GetInt("currentLevel",i)], levelSpawnPos.position,Quaternion.identity);
+        Instantiate(levelsReader.levels[i], levelSpawnPos.position,Quaternion.identity);
         winTrigger = FindObjectOfType<WinTrigger>();
         gameManager = FindObjectOfType<GameManager>();
 
@@ -37,7 +39,7 @@ public class GameManager : MonoBehaviour {
         totalTreeCount = FindObjectsOfType<Tree>().Length * 5;
     }
 
-    float ProgressCalculator()
+    public float ProgressCalculator()
     {
         float percentage;
         percentage = (lootCount * 100) / totalTreeCount;
@@ -54,8 +56,8 @@ public class GameManager : MonoBehaviour {
 
     public void OnLevelEndened() {
         print(ProgressCalculator());
-        NextLevelButton();
-   //     winPanel.SetActive(true);
+        //NextLevelButton();
+        winPanel.SetActive(true);
     }
 
     public void NextLevelButton() {
