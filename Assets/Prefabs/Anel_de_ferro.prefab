@@ -125,4 +125,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}

@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &4816658889045905460
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &1507100891871081765
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -348,7 +348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &3949573055191814644
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -474,7 +474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &1759346903524038927
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -646,7 +646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &2128003888347756656
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -772,7 +772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &5986289321020888493
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -898,7 +898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &5578742613669314361
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1024,7 +1024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &4923971858268339233
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1150,7 +1150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &2918589501441929113
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1276,7 +1276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &8441510819364225729
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1402,7 +1402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &6960999579766643873
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1528,7 +1528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &5239296383419043956
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1654,7 +1654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &9129204154353263503
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1780,7 +1780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &1186847024797045858
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1906,7 +1906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &78839152868895929
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2032,7 +2032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 0}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: d988ac0a4b46db14088722c68638108a, type: 3}
 --- !u!54 &3660026031038171621
 Rigidbody:
   m_ObjectHideFlags: 0

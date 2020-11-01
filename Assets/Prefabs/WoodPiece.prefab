@@ -141,7 +141,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioCut: {fileID: 8300000, guid: 3c5d677c18afe9246bd834360c3d9162, type: 3}
-  AudioCollision: {fileID: 0}
+  AudioCollision: {fileID: 8300000, guid: 1a8103cdaea9be8418fd80db7ea3209d, type: 3}
+  UpperWood: {fileID: 0}
+  LowerWood: {fileID: 0}
 --- !u!1001 &4296460050761188871
 PrefabInstance:
   m_ObjectHideFlags: 0
