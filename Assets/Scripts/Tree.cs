@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class Tree : MonoBehaviour {
     public GameObject treeTop;
+    Transform playerShip;
+
     // Start is called before the first frame update
     void Start() {
+        playerShip = FindObjectOfType<PlayerMovement>().gameObject.transform;
         CreateTree();
-    }
-
-    // Update is called once per frame
-    void Update() {
-
     }
 
     public void CreateTree() {
