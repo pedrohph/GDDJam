@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour {
     public float lookSpeed;
     //public Transform aimTarget;
 
+    public bool forcedPosition = false;
 
     // Start is called before the first frame update
     void Start() {
@@ -21,9 +22,13 @@ public class PlayerMovement : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        PlayerMove(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-       // RotationLook(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        HorizontalLean(transform, Input.GetAxis("Horizontal"));
+        // PlayerMove(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        // RotationLook(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+         HorizontalLean(transform, Input.GetAxis("Horizontal"));
+
+        if (forcedPosition) {
+            gameObject.transform.localPosition = Vector3.MoveTowards(gameObject.transform.localPosition, new Vector3(0, -3, 0), movementSpeed * Time.deltaTime);
+        }
     }
 
     public void MovePlayer(float x, float y) {
@@ -38,7 +43,7 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     void ClampPosition() {
-        transform.localPosition = new Vector3(Mathf.Clamp(transform.position.x, -movementLimits.x, movementLimits.x), Mathf.Clamp(transform.position.y , -movementLimits.y, movementLimits.y),0);// Camera.main.ViewportToWorldPoint(pos);
+        transform.localPosition = new Vector3(Mathf.Clamp(transform.position.x, -movementLimits.x, movementLimits.x), Mathf.Clamp(transform.position.y, -movementLimits.y, movementLimits.y), 0);// Camera.main.ViewportToWorldPoint(pos);
     }
 
     //public void RotationLook(float h, float v) {
@@ -52,4 +57,11 @@ public class PlayerMovement : MonoBehaviour {
         target.localEulerAngles = new Vector3(targetEulerAngels.x, targetEulerAngels.y, Mathf.LerpAngle(targetEulerAngels.z, -axis * leanLimit, lerpTime));
     }
 
+    public void ForcePosition() {
+        forcedPosition = true;
+    }
+
+    public void ListenWinTrigger(WinTrigger wt) {
+        wt.OnWinTriggered += ForcePosition;
+    }
 }
