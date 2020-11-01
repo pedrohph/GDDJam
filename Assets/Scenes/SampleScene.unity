@@ -6305,7 +6305,7 @@ MonoBehaviour:
   lootCount: 0
   explosion: {fileID: 1249440370417595396, guid: eac363d608f15af418477c3e15e2c2b6,
     type: 3}
-  levelsReader: {fileID: 0}
+  levelsReader: {fileID: 11400000, guid: 1263a0d0149d88a4da7f71b8bd83da3c, type: 2}
 --- !u!82 &1535751102
 AudioSource:
   m_ObjectHideFlags: 0

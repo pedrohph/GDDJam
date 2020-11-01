@@ -22,10 +22,10 @@ public class EndLevel : MonoBehaviour
 
     void Update()
     {
-        while (progressBar.fillAmount < manager.ProgressCalculator())
-        {
-            progressBar.fillAmount += Time.deltaTime;
-        }
+        //while (progressBar.fillAmount < manager.ProgressCalculator())
+        //{
+        //    progressBar.fillAmount += Time.deltaTime;
+        //}
     }
 
     public void Classify()
