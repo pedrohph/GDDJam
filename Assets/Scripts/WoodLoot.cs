@@ -6,6 +6,7 @@ public class WoodLoot : MonoBehaviour
 {
     Transform playerTransform;
     public float moveSpeed;
+    public GameObject particle;
 
     public delegate void PlayLootSFX(AudioClip clip);
     public event PlayLootSFX lootPlayedSFX;
@@ -43,6 +44,7 @@ public class WoodLoot : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Instantiate(particle, other.gameObject.transform.position,Quaternion.identity) ;
             if(lootPlayedSFX != null)
             {
                 lootPlayedSFX(clip);

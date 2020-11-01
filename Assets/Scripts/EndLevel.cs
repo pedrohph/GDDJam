@@ -22,7 +22,7 @@ public class EndLevel : MonoBehaviour
     private void OnEnable()
     {
         manager = FindObjectOfType<GameManager>();
-        percentage = manager.ProgressCalculator() / 100;
+        percentage = manager.percent / 100;
         Classify();
         progressBar.fillAmount = 0;
         Invoke("EndEffects", 2);
@@ -35,7 +35,7 @@ public class EndLevel : MonoBehaviour
         {
             percentage = 1;
         }
-
+        
         progressBar.fillAmount = Mathf.Lerp(progressBar.fillAmount, percentage, Time.deltaTime * lerpSpeed);
 
 

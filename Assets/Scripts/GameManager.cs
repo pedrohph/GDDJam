@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour {
 
     float totalTreeCount;
     public float lootCount;
+    public float percent;
 
     public GameObject explosion;
 
@@ -54,8 +55,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void OnLevelEndened() {
-
-        print(ProgressCalculator());
+        percent = ProgressCalculator();
         Invoke("OpenEndPanel", 2.3f);
     }
 
