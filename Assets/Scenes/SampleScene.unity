@@ -483,7 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5414553633011fc4eac6a2077ed2b249, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedMovement: 5
+  speedMovement: 20
 --- !u!1 &483067310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,8 +1114,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1722566440}
   offset: {x: 0, y: 0, z: -14}
-  limits: {x: 4, y: 6}
+  limits: {x: 7, y: 6}
   smoothTime: 0.1
+  changeZ: 0
 --- !u!1 &1336591576
 GameObject:
   m_ObjectHideFlags: 0
@@ -6154,7 +6155,7 @@ MonoBehaviour:
   movementSpeed: 18
   leanLimit: 25
   lerpTime: 0.1
-  movementLimits: {x: 6, y: 10}
+  movementLimits: {x: 10, y: 10}
   lookSpeed: 360
 --- !u!65 &1722566442
 BoxCollider:
