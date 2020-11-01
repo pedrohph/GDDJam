@@ -1116,7 +1116,6 @@ MonoBehaviour:
   offset: {x: 0, y: 0, z: -14}
   limits: {x: 7, y: 6}
   smoothTime: 0.1
-  changeZ: 0
 --- !u!1 &1336591576
 GameObject:
   m_ObjectHideFlags: 0

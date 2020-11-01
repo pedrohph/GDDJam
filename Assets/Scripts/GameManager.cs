@@ -9,8 +9,8 @@ public class GameManager : MonoBehaviour {
     WinTrigger winTrigger;
     GameManager gameManager;
 
-    int totalTreeCount;
-    int lootCount;
+    float totalTreeCount;
+    float lootCount;
 
     // Start is called before the first frame update
     void Start() {
@@ -39,10 +39,10 @@ public class GameManager : MonoBehaviour {
     }
 
     public void OnLevelEndened() {
-        ProgressCalculator();
-
-        print("Abrir tela de vitoria");
-        Invoke("RestartLevel", 1f);
+        print(lootCount);
+        print(totalTreeCount);
+        print((lootCount / 100) * totalTreeCount);
+        //Invoke("RestartLevel", 1f);
     }
 
     public void NextLevelButton() {
