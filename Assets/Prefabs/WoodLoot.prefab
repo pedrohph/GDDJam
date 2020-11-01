@@ -246,6 +246,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 35
+  particle: {fileID: 4046365818230547545, guid: ac1a3ff578eb5634f83f736c19197c3f,
+    type: 3}
   clip: {fileID: 0}
 --- !u!1001 &7780626457275318989
 PrefabInstance:
