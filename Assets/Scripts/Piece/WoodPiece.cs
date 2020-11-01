@@ -34,19 +34,25 @@ public class WoodPiece : Obstacles {
     }
 
     public void DisableColliders() {
-        gameObject.GetComponent<Collider>().enabled = false;
+        if (gameObject.GetComponent<Collider>().enabled) {
+            gameObject.GetComponent<Collider>().enabled = false;
 
-        if (transform.GetComponentInChildren<MetalPiece>()){
-            transform.GetComponentInChildren<MetalPiece>().DisableColliders();
-        }
 
-        if (UpperWood != null) {
-            UpperWood.DisableColliders();
+            if (UpperWood != null) {
+                UpperWood.DisableColliders();
+            }
+
+            if (LowerWood != null) {
+                LowerWood.DisableColliders();
+            }
+
+            if (transform.GetComponentInChildren<MetalPiece>()) {
+                transform.GetComponentInChildren<MetalPiece>().DisableColliders();
+            }
         }
     }
 
-    void DieTree()
-    {
+    void DieTree() {
         Instantiate(loot, transform.parent.GetChild(1).position, Quaternion.identity);
         Destroy(transform.parent.gameObject, 10);
     }
