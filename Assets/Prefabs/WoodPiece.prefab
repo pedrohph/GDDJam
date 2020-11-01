@@ -144,6 +144,7 @@ MonoBehaviour:
   AudioCollision: {fileID: 8300000, guid: 1a8103cdaea9be8418fd80db7ea3209d, type: 3}
   UpperWood: {fileID: 0}
   LowerWood: {fileID: 0}
+  loot: {fileID: 3865589711003423533, guid: f1bf848f064707341a47db298a02a49f, type: 3}
 --- !u!1001 &4296460050761188871
 PrefabInstance:
   m_ObjectHideFlags: 0

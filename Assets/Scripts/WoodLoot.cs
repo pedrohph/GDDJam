@@ -16,8 +16,11 @@ public class WoodLoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, playerTransform.position,
-            moveSpeed * Time.deltaTime);
+        if (playerTransform != null)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, playerTransform.position,
+                moveSpeed * Time.deltaTime);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
