@@ -248,7 +248,7 @@ MonoBehaviour:
   moveSpeed: 35
   particle: {fileID: 4046365818230547545, guid: ac1a3ff578eb5634f83f736c19197c3f,
     type: 3}
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 6cf1da31b6d28de4eb6e29e85cff2bb8, type: 3}
 --- !u!1001 &7780626457275318989
 PrefabInstance:
   m_ObjectHideFlags: 0
