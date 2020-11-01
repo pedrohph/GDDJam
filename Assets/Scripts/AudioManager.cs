@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public AudioSource sfx;
+    public AudioSource[] sfx;
     public AudioSource music;
 
     WinTrigger winTrigger;
@@ -12,15 +12,25 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         //winTrigger = FindObjectOfType<WinTrigger>();
-        sfx = GetComponent<AudioSource>();
+        sfx = GetComponents<AudioSource>();
         //winTrigger.OnSFXPlayed += PlaySFX;
     }
 
     public void PlaySFX(AudioClip clip)
     {
-
-        sfx.clip = clip;
-        sfx.Play();
+        bool played = false;
+        for(int i = 0; i<sfx.Length; i++) {
+            if (!sfx[i].isPlaying) {
+                played = true;
+                sfx[i].clip = clip;
+                sfx[i].Play();
+            }
+        }
+        if (played) {
+            sfx[0].clip = clip;
+            sfx[0].Play();
+        }
+        
     }
 
     public void ListenSoundsFromObstacles(Obstacles obstacles) {

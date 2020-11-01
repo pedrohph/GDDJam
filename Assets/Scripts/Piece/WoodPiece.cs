@@ -23,7 +23,7 @@ public class WoodPiece : Obstacles {
         }
 
         DisableColliders();
-        Invoke("DieTree", 0.3f);
+        DieTree();
         StartCoroutine(SlowTimeAndShake());
     }
 
