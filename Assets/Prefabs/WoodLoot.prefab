@@ -106,5 +106,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030a684d2663ec546853622968a5a218, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
-  moveSpeed: 30
+  moveSpeed: 50
+  clip: {fileID: 0}

@@ -45,6 +45,6 @@ public class WoodPiece : Obstacles {
     void DieTree()
     {
         Instantiate(loot, transform.parent.GetChild(1).position, Quaternion.identity);
-        Destroy(transform.parent.gameObject, 5);
+        Destroy(transform.parent.gameObject, 10);
     }
 }
