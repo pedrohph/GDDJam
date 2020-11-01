@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
-    public GameObject gameOverPanel, winPanel;
+    public GameObject winPanel;
+    public Transform levelSpawnPos;
+    public GameObject[] levels;
 
     WinTrigger winTrigger;
     GameManager gameManager;
@@ -16,8 +18,10 @@ public class GameManager : MonoBehaviour {
     void Start() {
         PlayerPrefs.GetInt("currentLevel", 0);
         TotalTreeCalculator();
+        Instantiate(levels[PlayerPrefs.GetInt("currentlevel",0)], levelSpawnPos.position,Quaternion.identity);
         winTrigger = FindObjectOfType<WinTrigger>();
         gameManager = FindObjectOfType<GameManager>();
+
 
         winTrigger.OnWinTriggered += gameManager.OnLevelEndened;
     }
@@ -35,37 +39,24 @@ public class GameManager : MonoBehaviour {
     }
 
     public void OnDie() {
-        print("Abrir tela de derrota");
+        PlayerPrefs.SetInt("win", 0);
+        Invoke("RestartLevel", 1f);
     }
 
     public void OnLevelEndened() {
         print(ProgressCalculator());
-        Invoke("RestartLevel", 100f);
+        winPanel.SetActive(true);
     }
 
     public void NextLevelButton() {
         int i = PlayerPrefs.GetInt("currentLevel", 0) + 1;
+        PlayerPrefs.SetInt("win", 1);
         PlayerPrefs.SetInt("CurrentLevel", i);
-        //tocar efeito de som do botão
-        //chamar função de carregamento de fase
-        //Invoke("LoadNewLevel", 0.5f);
-        //talvez seja interessante chamar um fade para essa transição 
-        //Invoke("ResetPlayerToStart", 0.6f);
-
-    }
-
-    public void ResetPlayerToStart() {
-        //reposicionar player no inicio da fase
+        Invoke("RestartLevel", 1f);
     }
 
     public void RestartLevel() {
-        //reiniciar a fase
         SceneManager.LoadScene("SampleScene");
-    }
-
-    public void LoadNewLevel() {
-        //reposicionar player
-        //instanciar nova fase
     }
 
     public void ListenGameOver(Obstacles obstacle) {
