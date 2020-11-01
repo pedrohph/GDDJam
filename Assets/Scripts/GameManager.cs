@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour {
     float ProgressCalculator()
     {
         float percentage;
-        percentage = totalTreeCount * lootCount / 100;
+        percentage =  (lootCount / 100) * totalTreeCount;
         return percentage;
     }
 
