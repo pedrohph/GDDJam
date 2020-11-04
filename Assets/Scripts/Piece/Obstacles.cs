@@ -33,6 +33,6 @@ public abstract class Obstacles : MonoBehaviour {
         }
     }
 
-    public abstract void WingCollision();
+    public abstract bool WingCollision();
     public abstract void BodyCollision();
 }

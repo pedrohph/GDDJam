@@ -5,10 +5,11 @@ using UnityEngine;
 using DG.Tweening;
 
 public class MetalPiece : Obstacles {
-    public override void WingCollision() {
+    public override bool WingCollision() {
         PlaySound(AudioCollision);
         Shake();
         GameOver();
+        return true;
     }
 
     public override void BodyCollision() {

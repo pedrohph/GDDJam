@@ -15,7 +15,7 @@ public class WoodPiece : Obstacles {
             GetComponent<FixedJoint>().breakForce = 0;
     }
 
-    public override void WingCollision() {
+    public override bool WingCollision() {
         PlaySound(AudioCut);
         gameObject.GetComponent<Rigidbody>().AddForce(0, 0, 25, ForceMode.Impulse);
         // RemoveJoint();
@@ -26,6 +26,7 @@ public class WoodPiece : Obstacles {
         DisableColliders();
         DieTree();
         StartCoroutine(SlowTimeAndShake());
+        return false;
     }
 
     public override void BodyCollision() {

@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour {
         i++;
         PlayerPrefs.SetInt("win", 1);
         PlayerPrefs.SetInt("currentLevel", i);
-        Invoke("RestartLevel", 7f);
+        Invoke("RestartLevel", 2.5f);
     }
 
     public void RestartLevel() {
