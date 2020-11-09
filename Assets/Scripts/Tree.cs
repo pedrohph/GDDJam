@@ -16,10 +16,10 @@ public class Tree : MonoBehaviour {
         for(int i = 1; i< transform.childCount; i++) {
             if(i != 1) {
                 if (i != transform.childCount - 1) {
-                    transform.GetChild(i).gameObject.GetComponent<WoodPiece>().UpperWood = transform.GetChild(i + 1).gameObject.GetComponent<WoodPiece>();
+                    transform.GetChild(i).gameObject.GetComponent<Obstacles>().UpperPiece = transform.GetChild(i + 1).gameObject.GetComponent<Obstacles>();
                 }
                 if ( i != 2) {
-                    transform.GetChild(i).gameObject.GetComponent<WoodPiece>().LowerWood = transform.GetChild(i - 1).gameObject.GetComponent<WoodPiece>();
+                    transform.GetChild(i).gameObject.GetComponent<Obstacles>().LowerPiece = transform.GetChild(i - 1).gameObject.GetComponent<Obstacles>();
                 }
             }
             if (i != transform.childCount - 1) {

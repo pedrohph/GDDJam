@@ -4,23 +4,16 @@ using UnityEngine;
 using DG.Tweening;
 
 public class WoodPiece : Obstacles {
-    public WoodPiece UpperWood;
-    public WoodPiece LowerWood;
-
+   
     public GameObject loot;
     public GameObject woodParticle;
-
-    public void RemoveJoint() {
-        if (GetComponent<FixedJoint>())
-            GetComponent<FixedJoint>().breakForce = 0;
-    }
 
     public override bool WingCollision() {
         PlaySound(AudioCut);
         gameObject.GetComponent<Rigidbody>().AddForce(0, 0, 25, ForceMode.Impulse);
         // RemoveJoint();
-        if (LowerWood != null) {
-            LowerWood.RemoveJoint();
+        if (LowerPiece != null) {
+            LowerPiece.RemoveJoint();
         }
         Instantiate(woodParticle, transform.position, transform.rotation);
         DisableColliders();
@@ -33,25 +26,6 @@ public class WoodPiece : Obstacles {
         Shake();
         PlaySound(AudioCollision);
         GameOver();
-    }
-
-    public void DisableColliders() {
-        if (gameObject.GetComponent<Collider>().enabled) {
-            gameObject.GetComponent<Collider>().enabled = false;
-
-
-            if (UpperWood != null) {
-                UpperWood.DisableColliders();
-            }
-
-            if (LowerWood != null) {
-                LowerWood.DisableColliders();
-            }
-
-            if (transform.GetComponentInChildren<MetalPiece>()) {
-                transform.GetComponentInChildren<MetalPiece>().DisableColliders();
-            }
-        }
     }
 
     void DieTree() {

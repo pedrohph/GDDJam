@@ -33,8 +33,7 @@ public class Controller : MonoBehaviour {
             //create vector from the two points
 
             currentSwipe = new Vector2(secondPressPos.x - firstPressPos.x, secondPressPos.y - firstPressPos.y);
-            currentSwipe *= 2;
-            currentSwipe = new Vector3(Mathf.Clamp(currentSwipe.x, -1, 1), Mathf.Clamp(currentSwipe.y, -1, 1));
+            currentSwipe.Normalize();
 
             if (player != null)
                 player.MovePlayer(currentSwipe.x, currentSwipe.y);

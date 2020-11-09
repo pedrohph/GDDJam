@@ -5,6 +5,8 @@ using UnityEngine;
 using DG.Tweening;
 
 public class MetalPiece : Obstacles {
+
+
     public override bool WingCollision() {
         PlaySound(AudioCollision);
         Shake();
@@ -18,13 +20,9 @@ public class MetalPiece : Obstacles {
         GameOver();
     }
 
-    public void DisableColliders() {
-        gameObject.GetComponent<Collider>().enabled = false;
-
-    }
-
     public void Shake() {
         Camera.main.DOKill();
         Camera.main.DOShakePosition(0.5f, 2f, 10);
     }
+
 }
