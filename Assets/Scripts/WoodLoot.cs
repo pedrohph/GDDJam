@@ -8,9 +8,6 @@ public class WoodLoot : MonoBehaviour
     public float moveSpeed;
     public GameObject particle;
 
-    public delegate void PlayLootSFX(AudioClip clip);
-    public event PlayLootSFX lootPlayedSFX;
-
     public delegate void CollectLoot();
     public event CollectLoot CollectedLoot;
 
@@ -18,9 +15,6 @@ public class WoodLoot : MonoBehaviour
 
     protected void OnEnable()
     {
-        AudioManager am = FindObjectOfType<AudioManager>();
-        am.ListenSoundsFromLoots(this);
-
         GameManager gm = FindObjectOfType<GameManager>();
         gm.addLoot();
     }
@@ -45,10 +39,8 @@ public class WoodLoot : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Instantiate(particle, other.gameObject.transform.position,Quaternion.identity) ;
-            if(lootPlayedSFX != null)
-            {
-                lootPlayedSFX(clip);
-            }
+            AudioManager.Instance.PlaySFX(clip);
+            
             if (CollectedLoot != null)
             {
                 CollectedLoot();

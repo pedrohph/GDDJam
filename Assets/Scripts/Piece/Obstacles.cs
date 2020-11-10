@@ -6,9 +6,6 @@ public abstract class Obstacles : MonoBehaviour {
     public Obstacles UpperPiece;
     public Obstacles LowerPiece;
 
-    public delegate void PlaySFX(AudioClip clip);
-    public event PlaySFX PlayedSFX;
-
     public delegate void DefineGameOver();
     public event DefineGameOver DefinedGameOver;
 
@@ -16,9 +13,6 @@ public abstract class Obstacles : MonoBehaviour {
     public AudioClip AudioCollision;
 
     protected void OnEnable() {
-        AudioManager am = FindObjectOfType<AudioManager>();
-        am.ListenSoundsFromObstacles(this);
-
         GameManager gm = FindObjectOfType<GameManager>();
         gm.ListenGameOver(this);
     }
@@ -30,9 +24,7 @@ public abstract class Obstacles : MonoBehaviour {
     }
 
     public void PlaySound(AudioClip clip) {
-        if (PlayedSFX != null) {
-            PlayedSFX(clip);
-        }
+        AudioManager.Instance.PlaySFX(clip);    
     }
 
     public abstract bool WingCollision();
